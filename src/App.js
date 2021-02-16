@@ -9,8 +9,8 @@ import './App.css';
 
 class App extends Component {
     render() {
-        return <div className="App">
-            <Header name="Header" />
+        return <div className="app">
+            <Header />
             <Slider name="Slider" />
             <News name="News" />
             <Timeline name="Timeline" />
