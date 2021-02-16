@@ -1,7 +1,0 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:regular,bold,italic&subset=latin,latin-ext');
-@import "Header.css";
-
-.app {
-  font-family: "Roboto Mono";
-  font-weight: 500;
-}

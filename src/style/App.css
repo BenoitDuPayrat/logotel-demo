@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:regular,bold,italic&subset=latin,latin-ext');
+@import "Header.css";
+@import "Slider.css";
+
+.app {
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hidden {
+  display: none;
+}
+
+.full-opacity {
+  opacity: 1;
+}

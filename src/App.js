@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Slider from './Slider/Slider';
-import News from './News/News';
-import Timeline from './Timeline/Timeline';
-import Tabs from './Tabs/Tabs';
+import Slider from './containers/Slider';
+import News from './containers/News';
+import Timeline from './containers/Timeline';
+import Tabs from './containers/Tabs';
 import Footer from './Footer';
-import './App.css';
+import './style/App.css';
 
 class App extends Component {
     render() {
