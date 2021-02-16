@@ -3,10 +3,10 @@ import Button from '../Tools/Button';
 
 class Slider extends Component {
     render() {
-        return <>
-                <h1>Hello, {this.props.name}</h1>
-                <Button name="Button"/>
-            </>;
+        return <div className="logotel-slider">
+            <h1>Hello, {this.props.name}</h1>
+            <Button name="Button"/>
+            </div>;
     }
 }
 
