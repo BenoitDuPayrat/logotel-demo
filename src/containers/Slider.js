@@ -42,6 +42,15 @@ export default function Slider() {
                     onClick={_ => setSlide(3)}
                 >4</div>
             </div>
+            <div className="logotel-slider--text" >
+                <span className="logotel-slider--text--title">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                </span>
+                <span className="logotel-slider--text--content">
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+                </span>
+                <div className="logotel-slider--text--cta">CALL TO ACTION</div>
+            </div>
             <img
                 className={"logotel-slider--image" + (slide != 0 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-1.png`}
