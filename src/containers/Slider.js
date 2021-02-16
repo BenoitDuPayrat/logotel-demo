@@ -19,26 +19,26 @@ export default function Slider() {
     return (
         <div className="logotel-slider">
             <div className="logotel-slider--left-button" onClick={_ => prevSlide()}>
-                <img src={`${process.env.PUBLIC_URL}/chevron sinistra.svg`} />
+                <img src={`${process.env.PUBLIC_URL}/chevron sinistra.svg`} alt="Previous" />
             </div>
             <div className="logotel-slider--right-button" onClick={_ => nextSlide()}>
-                <img src={`${process.env.PUBLIC_URL}/chevron destra.svg`} />
+                <img src={`${process.env.PUBLIC_URL}/chevron destra.svg`} alt="Next" />
             </div>
             <div className="logotel-slider--controls">
                 <div
-                    className={"logotel-slider--controls--button" + (slide == 0 ? " full-opacity" : "")}
+                    className={"logotel-slider--controls--button" + (slide === 0 ? " full-opacity" : "")}
                     onClick={_ => setSlide(0)}
                 >1</div>
                 <div
-                    className={"logotel-slider--controls--button" + (slide == 1 ? " full-opacity" : "")}
+                    className={"logotel-slider--controls--button" + (slide === 1 ? " full-opacity" : "")}
                     onClick={_ => setSlide(1)}
                 >2</div>
                 <div
-                    className={"logotel-slider--controls--button" + (slide == 2 ? " full-opacity" : "")}
+                    className={"logotel-slider--controls--button" + (slide === 2 ? " full-opacity" : "")}
                     onClick={_ => setSlide(2)}
                 >3</div>
                 <div
-                    className={"logotel-slider--controls--button" + (slide == 3 ? " full-opacity" : "")}
+                    className={"logotel-slider--controls--button" + (slide === 3 ? " full-opacity" : "")}
                     onClick={_ => setSlide(3)}
                 >4</div>
             </div>
@@ -52,19 +52,19 @@ export default function Slider() {
                 <div className="logotel-slider--text--cta">CALL TO ACTION</div>
             </div>
             <img
-                className={"logotel-slider--image" + (slide != 0 ? " hidden" : "")}
+                className={"logotel-slider--image" + (slide !== 0 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-1.png`}
                 alt="slider-1" />
             <img
-                className={"logotel-slider--image" + (slide != 1 ? " hidden" : "")}
+                className={"logotel-slider--image" + (slide !== 1 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-2.jpg`}
                 alt="slider-2" />
             <img
-                className={"logotel-slider--image" + (slide != 2 ? " hidden" : "")}
+                className={"logotel-slider--image" + (slide !== 2 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-3.jpg`}
                 alt="slider-3" />
             <img
-                className={"logotel-slider--image" + (slide != 3 ? " hidden" : "")}
+                className={"logotel-slider--image" + (slide !== 3 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-4.jpg`}
                 alt="slider-4" />
         </div>
