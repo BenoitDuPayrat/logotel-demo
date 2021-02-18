@@ -43,3 +43,28 @@
   text-align: end;
   color: #ed6562;
 }
+
+.slogan-2 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.slogan-2--image {
+  width: 100%;
+}
+
+.slogan-2--text {
+  position: absolute;
+  top: 65%;
+  left: 40px;
+  transform: translateY(-50%);
+  width: 55%;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: end;
+  color: #ed6562;
+}

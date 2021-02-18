@@ -38,6 +38,10 @@ export default function App() {
                 <div className="slogan-1--text">Sed diam nonummy nibh euismod tincidunt?</div>
             </div>
             <Timeline />
+            <div className="slogan-2">
+                <img className="slogan-2--image" src={`${process.env.PUBLIC_URL}/onda-grigio-bianco.svg`} alt="Wave 2" />
+                <div className="slogan-2--text">Lorem ipsum dolor sit amet consectetuer?</div>
+            </div>
             <Tabs name="Tabs" />
             <Footer name="Footer" />
         </div>
