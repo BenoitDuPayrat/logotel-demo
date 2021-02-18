@@ -17,3 +17,28 @@
 .full-opacity {
   opacity: 1;
 }
+
+.slogan-1 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -125px;
+}
+
+.slogan-1--image {
+  width: 100%;
+}
+
+.slogan-1--text {
+  position: absolute;
+  top: 40%;
+  right: 70px;
+  transform: translateY(-50%);
+  width: 55%;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: end;
+  color: #ed6562;
+}
