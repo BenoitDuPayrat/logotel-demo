@@ -34,10 +34,10 @@ export default function App() {
             <Slider />
             <News news={news} />
             <div className="slogan-1">
-                <img className="slogan-1--image" src={`${process.env.PUBLIC_URL}/onda-bianco-grigio.svg`} />
+                <img className="slogan-1--image" src={`${process.env.PUBLIC_URL}/onda-bianco-grigio.svg`} alt="Wave 1" />
                 <div className="slogan-1--text">Sed diam nonummy nibh euismod tincidunt?</div>
             </div>
-            <Timeline name="Timeline" />
+            <Timeline />
             <Tabs name="Tabs" />
             <Footer name="Footer" />
         </div>

@@ -1,0 +1,140 @@
+.logotel-timeline {
+    display: flex;
+    justify-content: center;
+    padding: 160px 0;
+    margin-top: -1px;
+    background: linear-gradient(180deg, #272727 0%, #464646 100%);
+}
+
+.logotel-timeline--area {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+}
+
+.logotel-timeline--rectangle {
+    position: relative;
+    display: flex;
+    width: 280px;
+    padding: 75px;
+    margin-bottom: -9.66px;
+    border: 10px solid #ffffff;
+}
+
+.logotel-timeline--rectangle--right {
+    align-self: flex-end;
+    justify-content: flex-start;
+    border-left: none;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.logotel-timeline--rectangle--left {
+    align-self: flex-start;
+    justify-content: flex-end;
+    border-right: none;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+}
+
+.logotel-timeline--rectangle--text {
+    width: 415px;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    white-space: pre-line;
+    margin: 0 -120px
+}
+
+.logotel-timeline--rectangle--content {
+    display: flex;
+    flex-direction: column;
+}
+
+.logotel-timeline--rectangle--content--title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+.logotel-timeline--color-0 {
+    color: #44e0dc;
+}
+
+.logotel-timeline--bcolor-0 {
+    background-color: #44e0dc;
+}
+
+.logotel-timeline--bcolor-0:hover {
+    box-shadow: 0px 0px 0px 24px #44e0dc4d; 
+}
+
+.logotel-timeline--color-1 {
+    color: #ffed65;
+}
+
+.logotel-timeline--bcolor-1 {
+    background-color: #ffed65;
+}
+
+.logotel-timeline--bcolor-1:hover {
+    box-shadow: 0px 0px 0px 24px #ffed654d; 
+}
+
+.logotel-timeline--color-2 {
+    color: #f07c79;
+}
+
+.logotel-timeline--bcolor-2 {
+    background-color: #f07c79;
+}
+
+.logotel-timeline--bcolor-2:hover {
+    box-shadow: 0px 0px 0px 24px #f07c794d; 
+}
+
+.logotel-timeline--label {
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.logotel-timeline--label--left {
+    left: -275px;
+    text-align: end;
+}
+
+.logotel-timeline--label--right {
+    right: -500px;
+}
+
+.logotel-timeline--label--title {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.logotel-timeline--button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    width: 92px;
+    height: 92px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.logotel-timeline--left {
+    top: -10px;
+    left: -110px;
+}
+
+.logotel-timeline--right {
+    top: 0;
+    right: -180px;
+}

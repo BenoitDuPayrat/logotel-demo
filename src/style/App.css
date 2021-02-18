@@ -2,6 +2,7 @@
 @import "Header.css";
 @import "News.css";
 @import "Slider.css";
+@import "Timeline.css";
 
 .app {
   font-family: "Roboto Mono";
