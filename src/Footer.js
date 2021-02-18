@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 export default function Footer() {
     return (
-        <h1 className="logotel-footer">Hello</h1>
+        <div className="logotel-footer">
+            <img className="logotel-footer--logo" src={`${process.env.PUBLIC_URL}/LOGO BIANCO.svg`} />
+            <div className="logotel-footer--links">
+                {"Terms & conditions | Privacy policy | Cookies policy | Copyrights Notification"}
+            </div>
+            <div>{"Copyright © 2020 Logotel. All rights reserved."}</div>
+        </div>
     );
 }
-
-export default Footer;
