@@ -10,7 +10,12 @@
     z-index: 5;
     padding: 0 150px 0 60px;
     background-color: #272727;
-    opacity: 0.8;
+    opacity: 0.8;    
+    transition: top 0.2s ease-in-out;
+}
+
+.logotel-header--hidden {
+    top: -120px;
 }
 
 .logotel-header--card {

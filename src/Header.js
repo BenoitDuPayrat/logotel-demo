@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function Header() {
+    const [scrolling, setScrolling] = useState(true);
+    const [scrollTop, setScrollTop] = useState(0);
+
+    useEffect(() => {
+        function onScroll() {
+            let currentPosition = window.pageYOffset;
+            if (currentPosition > 120 && currentPosition > scrollTop) {
+                setScrolling(true);
+            } else {
+                setScrolling(false);
+            }
+            setScrollTop(currentPosition <= 0 ? 0 : currentPosition);
+        }
+
+        window.addEventListener("scroll", onScroll);
+        return _ => window.removeEventListener("scroll", onScroll);
+    }, [scrollTop]);
+
     return (
-        <div className="logotel-header">
+        <div className={"logotel-header" + (scrolling ? " logotel-header--hidden" : "")}>
             <div className="logotel-header--card">
                 <img src={`${process.env.PUBLIC_URL}/LOGO BIANCO.svg`} alt="logo" />
             </div>
