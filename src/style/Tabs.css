@@ -1,0 +1,128 @@
+.logotel-tabs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 50px 150px 50px;
+}
+
+.logotel-tabs--background {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.logotel-tabs--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.logotel-tabs--card--title {
+    margin-bottom: 24px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logotel-tabs--card--separator {
+    width: 100%;
+    margin-bottom: 36px;
+    border: none;
+}
+
+.logotel-tabs--card--image {
+    position: relative;
+    padding: 10px;
+    width: 219px;
+    height: 219px;
+    margin-bottom: 24px;
+}
+
+.logotel-tabs--card--image img {
+    position: relative;
+    z-index: 2;
+}
+
+.logotel-tabs--card--image::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.logotel-tabs--card--text {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 16px;
+    color: #272727;
+}
+
+.logotel-tabs--card--cta {
+    padding: 20px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.logotel-tabs--card-pink:hover {
+    background-color: #f07c79;
+}
+
+.logotel-tabs--card-yellow:hover {
+    background-color: #ffed65;
+}
+
+.logotel-tabs--card-turquoise:hover {
+    background-color: #44e0dc;
+}
+
+.logotel-tabs--card:hover .logotel-tabs--card--title {
+    color: #ffffff;
+}
+
+.logotel-tabs--card:hover .logotel-tabs--card--separator {
+    border-color: #ffffff;
+}
+
+.logotel-tabs--card:hover .logotel-tabs--card--cta {
+    background-color: #ffffff;
+    color: #272727;
+}
+
+.logotel-tabs--card-pink .logotel-tabs--card--separator {
+    border-top: solid 2px #ed6562;
+}
+
+.logotel-tabs--card-pink .logotel-tabs--card--image::after {
+    background-color: #ed6562;
+}
+
+.logotel-tabs--card-yellow .logotel-tabs--card--separator {
+    border-top: solid 2px #e2ca40;
+}
+
+.logotel-tabs--card-yellow .logotel-tabs--card--image::after {
+    background-color: #e2ca40;
+}
+
+.logotel-tabs--card-turquoise .logotel-tabs--card--separator {
+    border-top: solid 2px #28afb0;
+}
+
+.logotel-tabs--card-turquoise .logotel-tabs--card--image::after {
+    background-color: #28afb0;
+}

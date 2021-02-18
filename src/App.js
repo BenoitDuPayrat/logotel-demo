@@ -42,8 +42,8 @@ export default function App() {
                 <img className="slogan-2--image" src={`${process.env.PUBLIC_URL}/onda-grigio-bianco.svg`} alt="Wave 2" />
                 <div className="slogan-2--text">Lorem ipsum dolor sit amet consectetuer?</div>
             </div>
-            <Tabs name="Tabs" />
-            <Footer name="Footer" />
+            <Tabs />
+            <Footer />
         </div>
     );
 }

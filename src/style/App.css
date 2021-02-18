@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:regular,bold,italic&subset=latin,latin-ext');
+@import "Footer.css";
 @import "Header.css";
 @import "News.css";
 @import "Slider.css";
+@import "Tabs.css";
 @import "Timeline.css";
 
 .app {
@@ -67,4 +69,28 @@
   font-weight: 700;
   text-align: end;
   color: #ed6562;
+}
+
+.color-yellow {
+  color: #e2ca40;
+}
+
+.color-turquoise {
+  color: #28afB0;
+}
+
+.color-pink {
+  color: #ed6562;
+}
+
+.background-color-yellow {
+  background-color: #e2ca40;
+}
+
+.background-color-turquoise {
+  background-color: #28afB0;
+}
+
+.background-color-pink {
+  background-color: #ed6562;
 }
