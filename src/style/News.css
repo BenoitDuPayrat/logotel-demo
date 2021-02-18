@@ -1,0 +1,75 @@
+.logotel-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 480px;
+    margin: 50px
+}
+
+.logotel-news--item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+
+.logotel-news--item--img {
+    height: 50%;
+    transform: scaleX(-1);
+    object-fit: cover;
+}
+
+.logotel-news--item--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    padding: 20px;
+}
+
+.logotel-news--item:hover .logotel-news--item--text {
+    position: absolute;
+    height: 100%;
+    box-sizing: border-box;
+    top: 0;
+    background: linear-gradient(180deg, #ed656200 0%, #ed6562 50%, #ed6562 100%);
+}
+
+.logotel-news--item--text--date {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #838080;
+}
+
+.logotel-news--item--text--title {
+    margin: 5px 0;
+    height: 2.66em;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ed6562;
+}
+
+.logotel-news--item:hover .logotel-news--item--text--date,
+.logotel-news--item:hover .logotel-news--item--text--title {
+    color: #ffffff;
+}
+
+.logotel-news--item--text--content {
+    margin: 5px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #464646;
+    overflow: hidden;
+}
+
+.logotel-news--item:hover .logotel-news--item--text--content {
+    color: #ffffff;
+    -webkit-line-clamp: 10;
+}

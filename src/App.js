@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './Header';
 import Slider from './containers/Slider';
 import News from './containers/News';
@@ -7,17 +7,35 @@ import Tabs from './containers/Tabs';
 import Footer from './Footer';
 import './style/App.css';
 
-class App extends Component {
-    render() {
-        return <div className="app">
+export default function App() {
+    const news = [
+        {
+            src: `${process.env.PUBLIC_URL}/news-1.png`,
+            title: "Lorem ipsum dolor sit amet, consectetuer",
+            date: "13.09.2020",
+            text: "Nam consequat rutrum erat vitae pharetra. Maecenas ut metus non ipsum bibendum aliquet. Aenean non mi et ligula venenatis blandit non sit amet leo. In sit amet velit tincidunt, faucibus velit in, pretium ipsum. Quisque facilisis dictum volutpat."
+        },
+        {
+            src: `${process.env.PUBLIC_URL}/news-2.png`,
+            title: "No nummy nibh: euismod tin",
+            date: "12.09.2020",
+            text: "Nulla eget neque vitae nunc dignissim elementum. Fusce vel bibendum justo. Suspendisse at dignissim mauris. Donec non convallis felis. Nullam rhoncus ante diam, vitae ullamcorper urna eleifend sed. Fusce sodales augue eu vehicula porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut auctor accumsan erat id efficitur. Duis aliquam libero vehicula, laoreet libero eget, convallis purus. Donec feugiat mollis condimentum."
+        },
+        {
+            src: `${process.env.PUBLIC_URL}/news-3.png`,
+            title: "Lorem ipsum dolor sit amet, consectetuer",
+            date: "11.09.2020",
+            text: "Donec fringilla dui orci, quis bibendum turpis finibus sit amet. Curabitur faucibus arcu sit amet volutpat ornare."
+        }
+    ]
+    return (
+        <div className="app">
             <Header />
-            <Slider name="Slider" />
-            <News name="News" />
+            <Slider />
+            <News news={news} />
             <Timeline name="Timeline" />
             <Tabs name="Tabs" />
             <Footer name="Footer" />
         </div>
-    };
+    );
 }
-
-export default App;

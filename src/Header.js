@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Header extends Component {
-    render() {
-        return <div className="logotel-header">
+export default function Header() {
+    return (
+        <div className="logotel-header">
             <div className="logotel-header--card">
                 <img src={`${process.env.PUBLIC_URL}/LOGO BIANCO.svg`} alt="logo" />
             </div>
@@ -11,8 +11,6 @@ class Header extends Component {
             <div className="logotel-header--card">NEWS</div>
             <div className="logotel-header--card">PERCORSO</div>
             <div className="logotel-header--card">TAB</div>
-        </div>;
-    }
+        </div>
+    );
 }
-
-export default Header;
