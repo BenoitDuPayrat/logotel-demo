@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 function TimelineTextContainer(className) {
-    console.log(className);
     return (
         <div className="logotel-timeline--rectangle--content">
             <span className={`logotel-timeline--rectangle--content--title font-subtitle weight-700 ${className}`}>
