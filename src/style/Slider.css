@@ -38,7 +38,6 @@
     height: 60px;
     width: 60px;
     background-color: #f07c79;
-    font-weight: 700;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -58,8 +57,6 @@
 
 .logotel-slider--text--title {
     margin-bottom: 3rem;
-    font-size: 60px;
-    font-weight: 700;
 }
 
 .logotel-slider--text--cta {
@@ -67,7 +64,6 @@
     padding: 18px;
     width: fit-content;
     border-radius: 16px;
-    font-weight: 700;
     background-color: #f07c79;
     cursor: pointer;
 }

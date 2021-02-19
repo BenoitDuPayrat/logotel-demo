@@ -30,8 +30,6 @@
 
 .logotel-tabs--card--title {
     margin-bottom: 24px;
-    font-size: 34px;
-    font-weight: 700;
     text-align: center;
 }
 
@@ -68,14 +66,12 @@
 .logotel-tabs--card--text {
     margin-bottom: 24px;
     text-align: center;
-    font-size: 16px;
     color: #272727;
 }
 
 .logotel-tabs--card--cta {
     padding: 20px;
     margin-bottom: 24px;
-    font-weight: 700;
     border-radius: 20px;
 }
 

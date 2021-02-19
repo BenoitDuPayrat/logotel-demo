@@ -26,30 +26,30 @@ export default function Slider() {
             </div>
             <div className="logotel-slider--controls">
                 <div
-                    className={"logotel-slider--controls--button" + (slide === 0 ? " full-opacity" : "")}
+                    className={"logotel-slider--controls--button weight-700" + (slide === 0 ? " full-opacity" : "")}
                     onClick={_ => setSlide(0)}
                 >1</div>
                 <div
-                    className={"logotel-slider--controls--button" + (slide === 1 ? " full-opacity" : "")}
+                    className={"logotel-slider--controls--button weight-700" + (slide === 1 ? " full-opacity" : "")}
                     onClick={_ => setSlide(1)}
                 >2</div>
                 <div
-                    className={"logotel-slider--controls--button" + (slide === 2 ? " full-opacity" : "")}
+                    className={"logotel-slider--controls--button weight-700" + (slide === 2 ? " full-opacity" : "")}
                     onClick={_ => setSlide(2)}
                 >3</div>
                 <div
-                    className={"logotel-slider--controls--button" + (slide === 3 ? " full-opacity" : "")}
+                    className={"logotel-slider--controls--button weight-700" + (slide === 3 ? " full-opacity" : "")}
                     onClick={_ => setSlide(3)}
                 >4</div>
             </div>
             <div className="logotel-slider--text" >
-                <span className="logotel-slider--text--title">
+                <span className="logotel-slider--text--title font-title weight-700">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit
                 </span>
                 <span className="logotel-slider--text--content">
                     sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
                 </span>
-                <div className="logotel-slider--text--cta">CALL TO ACTION</div>
+                <div className="logotel-slider--text--cta weight-700">CALL TO ACTION</div>
             </div>
             <img
                 className={"logotel-slider--image" + (slide !== 0 ? " hidden" : "")}

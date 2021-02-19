@@ -43,16 +43,12 @@
 
 .logotel-news--item--text--date {
     margin: 5px 0;
-    font-size: 14px;
-    font-weight: 700;
     color: #838080;
 }
 
 .logotel-news--item--text--title {
     margin: 5px 0;
     height: 2.66em;
-    font-size: 24px;
-    font-weight: 700;
 }
 
 .logotel-news--item:hover .logotel-news--item--text--date,

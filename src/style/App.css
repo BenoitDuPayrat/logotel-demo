@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:regular,bold,italic&subset=latin,latin-ext');
 @import "Colors.css";
+@import "Fonts.css";
 @import "Footer.css";
 @import "Header.css";
 @import "News.css";
@@ -9,8 +10,6 @@
 
 .app {
   font-family: "Roboto Mono";
-  font-size: 20px;
-  font-weight: 500;
   color: #ffffff;
 }
 
@@ -41,8 +40,6 @@
   right: 70px;
   transform: translateY(-50%);
   width: 55%;
-  font-size: 60px;
-  font-weight: 700;
   text-align: end;
 }
 
@@ -65,7 +62,5 @@
   left: 40px;
   transform: translateY(-50%);
   width: 55%;
-  font-size: 60px;
-  font-weight: 700;
   text-align: end;
 }

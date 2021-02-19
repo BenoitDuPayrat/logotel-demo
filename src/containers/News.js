@@ -11,8 +11,8 @@ export default function News({ news }) {
                             src={n.src}
                             alt={"news-" + i} />
                         <div className="logotel-news--item--text">
-                            <div className="logotel-news--item--text--date">{n.date}</div>
-                            <div className="logotel-news--item--text--title pink">{n.title}</div>
+                            <div className="logotel-news--item--text--date font-very-small weight-700">{n.date}</div>
+                            <div className="logotel-news--item--text--title pink font-large weight-700">{n.title}</div>
                             <div className="logotel-news--item--text--content">{n.text}</div>
                         </div>
                     </div>

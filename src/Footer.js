@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <div className="logotel-footer">
+        <div className="logotel-footer font-very-small">
             <img className="logotel-footer--logo" src={`${process.env.PUBLIC_URL}/LOGO BIANCO.svg`} />
             <div className="logotel-footer--links">
                 {"Terms & conditions | Privacy policy | Cookies policy | Copyrights Notification"}

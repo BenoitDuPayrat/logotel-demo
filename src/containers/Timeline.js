@@ -4,7 +4,7 @@ function TimelineTextContainer(className) {
     console.log(className);
     return (
         <div className="logotel-timeline--rectangle--content">
-            <span className={`logotel-timeline--rectangle--content--title ${className}`}>
+            <span className={`logotel-timeline--rectangle--content--title font-subtitle weight-700 ${className}`}>
                 Lorem Ipsum
             </span>
             <span>
@@ -25,8 +25,8 @@ export default function Timeline() {
         <div className="logotel-timeline">
             <div className="logotel-timeline--area">
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--right">
-                    <div className="logotel-timeline--label logotel-timeline--label--left turquoise">
-                        <span className="logotel-timeline--label--title">1.</span>
+                    <div className="logotel-timeline--label weight-700 weight-700 font-subtitle logotel-timeline--label--left turquoise">
+                        <span className="weight-700  font-huge">1.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
@@ -35,15 +35,15 @@ export default function Timeline() {
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-1.svg`} alt="Logotel timeline logo 1" />
                     </div>
-                    <div className="logotel-timeline--rectangle--text">
+                    <div className="logotel-timeline--rectangle--text font-small">
                         {
                             activeSection === 0 ? TimelineTextContainer("turquoise") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--left">
-                    <div className="logotel-timeline--label logotel-timeline--label--right yellow">
-                        <span className="logotel-timeline--label--title">2.</span>
+                    <div className="logotel-timeline--label weight-700 weight-700 font-subtitle logotel-timeline--label--right yellow">
+                        <span className="weight-700  font-huge">2.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
@@ -52,15 +52,15 @@ export default function Timeline() {
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-2.svg`} alt="Logotel timeline logo 2" />
                     </div>
-                    <div className="logotel-timeline--rectangle--text">
+                    <div className="logotel-timeline--rectangle--text font-small">
                         {
                             activeSection === 1 ? TimelineTextContainer("yellow") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--right">
-                    <div className="logotel-timeline--label logotel-timeline--label--left pink">
-                        <span className="logotel-timeline--label--title">3.</span>
+                    <div className="logotel-timeline--label weight-700 weight-700 font-subtitle logotel-timeline--label--left pink">
+                        <span className="weight-700  font-huge">3.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
@@ -69,15 +69,15 @@ export default function Timeline() {
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-3.svg`} alt="Logotel timeline logo 3" />
                     </div>
-                    <div className="logotel-timeline--rectangle--text">
+                    <div className="logotel-timeline--rectangle--text font-small">
                         {
                             activeSection === 2 ? TimelineTextContainer("pink") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--left">
-                    <div className="logotel-timeline--label logotel-timeline--label--right turquoise">
-                        <span className="logotel-timeline--label--title">4.</span>
+                    <div className="logotel-timeline--label weight-700 weight-700 font-subtitle logotel-timeline--label--right turquoise">
+                        <span className="weight-700  font-huge">4.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
@@ -86,15 +86,15 @@ export default function Timeline() {
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-4.svg`} alt="Logotel timeline logo 4" />
                     </div>
-                    <div className="logotel-timeline--rectangle--text">
+                    <div className="logotel-timeline--rectangle--text font-small">
                         {
                             activeSection === 3 ? TimelineTextContainer("turquoise") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--right">
-                    <div className="logotel-timeline--label logotel-timeline--label--left yellow">
-                        <span className="logotel-timeline--label--title">5.</span>
+                    <div className="logotel-timeline--label weight-700 weight-700 font-subtitle logotel-timeline--label--left yellow">
+                        <span className="weight-700  font-huge">5.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
@@ -103,15 +103,15 @@ export default function Timeline() {
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-5.svg`} alt="Logotel timeline logo 5" />
                     </div>
-                    <div className="logotel-timeline--rectangle--text">
+                    <div className="logotel-timeline--rectangle--text font-small">
                         {
                             activeSection === 4 ? TimelineTextContainer("yellow") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--left">
-                    <div className="logotel-timeline--label logotel-timeline--label--right pink">
-                        <span className="logotel-timeline--label--title">6.</span>
+                    <div className="logotel-timeline--label weight-700 weight-700 font-subtitle logotel-timeline--label--right pink">
+                        <span className="weight-700  font-huge">6.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
@@ -120,7 +120,7 @@ export default function Timeline() {
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-6.svg`} alt="Logotel timeline logo 6" />
                     </div>
-                    <div className="logotel-timeline--rectangle--text">
+                    <div className="logotel-timeline--rectangle--text font-small">
                         {
                             activeSection === 5 ? TimelineTextContainer("pink") : null
                         }
