@@ -37,7 +37,6 @@
     align-items: center;
     height: 60px;
     width: 60px;
-    background-color: #f07c79;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -64,6 +63,5 @@
     padding: 18px;
     width: fit-content;
     border-radius: 16px;
-    background-color: #f07c79;
     cursor: pointer;
 }

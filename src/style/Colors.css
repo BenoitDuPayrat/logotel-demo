@@ -1,47 +1,71 @@
 .yellow {
-    color: #e2ca40;
-  }
-  
-  .bg-yellow {
-    background-color: #e2ca40;
-  }
-  
-  .bg-yellow--shadow:hover {
-    box-shadow: 0px 0px 0px 24px #ffed654d; 
-  }
-  
-  .yellow-separator {
-    border-top: solid 2px #e2ca40;
-  }
-  
-  .turquoise {
-    color: #28afB0;
-  }
-  
-  .bg-turquoise {
-    background-color: #28afB0;
-  }
-  
-  .bg-turquoise--shadow:hover {
-    box-shadow: 0px 0px 0px 24px #44e0dc4d; 
-  }
-  
-  .turquoise-separator {
-    border-top: solid 2px #28afB0;
-  }
-  
-  .pink {
-    color: #ed6562;
-  }
-  
-  .bg-pink {
-    background-color: #ed6562;
-  }
-  
-  .bg-pink--shadow:hover {
-    box-shadow: 0px 0px 0px 24px #f07c794d; 
-  }
-  
-  .pink-separator {
-    border-top: solid 2px #ed6562;
-  }
+  color: #e2ca40;
+}
+
+.bg-yellow {
+  background-color: #e2ca40;
+}
+
+.yellow-light {
+  color: #ffed65;
+}
+
+.bg-yellow-light {
+  background-color: #ffed65;
+}
+
+.bg-yellow-light--shadow:hover {
+  box-shadow: 0px 0px 0px 24px #ffed654d; 
+}
+
+.yellow-separator {
+  border-top: solid 2px #e2ca40;
+}
+
+.turquoise {
+  color: #28afB0;
+}
+
+.bg-turquoise {
+  background-color: #28afB0;
+}
+
+.turquoise-light {
+  color: #44e0dc;
+}
+
+.bg-turquoise-light {
+  background-color: #44e0dc;
+}
+
+.bg-turquoise-light--shadow:hover {
+  box-shadow: 0px 0px 0px 24px #44e0dc4d; 
+}
+
+.turquoise-separator {
+  border-top: solid 2px #28afB0;
+}
+
+.pink {
+  color: #ed6562;
+}
+
+.bg-pink {
+  background-color: #ed6562;
+}
+
+.pink-light {
+  color: #f07c79;
+}
+
+.bg-pink-light {
+  background-color: #f07c79;
+}
+
+.bg-pink-light--shadow:hover {
+  box-shadow: 0px 0px 0px 24px #f07c794d; 
+}
+
+.pink-separator {
+  border-top: solid 2px #ed6562;
+}
