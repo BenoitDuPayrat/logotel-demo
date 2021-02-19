@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:regular,bold,italic&subset=latin,latin-ext');
+@import "Colors.css";
 @import "Footer.css";
 @import "Header.css";
 @import "News.css";
@@ -43,7 +44,6 @@
   font-size: 60px;
   font-weight: 700;
   text-align: end;
-  color: #ed6562;
 }
 
 .slogan-2 {
@@ -68,29 +68,4 @@
   font-size: 60px;
   font-weight: 700;
   text-align: end;
-  color: #ed6562;
-}
-
-.color-yellow {
-  color: #e2ca40;
-}
-
-.color-turquoise {
-  color: #28afB0;
-}
-
-.color-pink {
-  color: #ed6562;
-}
-
-.background-color-yellow {
-  background-color: #e2ca40;
-}
-
-.background-color-turquoise {
-  background-color: #28afB0;
-}
-
-.background-color-pink {
-  background-color: #ed6562;
 }

@@ -12,7 +12,7 @@ export default function News({ news }) {
                             alt={"news-" + i} />
                         <div className="logotel-news--item--text">
                             <div className="logotel-news--item--text--date">{n.date}</div>
-                            <div className="logotel-news--item--text--title">{n.title}</div>
+                            <div className="logotel-news--item--text--title pink">{n.title}</div>
                             <div className="logotel-news--item--text--content">{n.text}</div>
                         </div>
                     </div>

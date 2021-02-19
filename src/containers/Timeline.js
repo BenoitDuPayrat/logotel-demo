@@ -25,104 +25,104 @@ export default function Timeline() {
         <div className="logotel-timeline">
             <div className="logotel-timeline--area">
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--right">
-                    <div className="logotel-timeline--label logotel-timeline--label--left logotel-timeline--color-0">
+                    <div className="logotel-timeline--label logotel-timeline--label--left turquoise">
                         <span className="logotel-timeline--label--title">1.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
-                        className="logotel-timeline--button logotel-timeline--left logotel-timeline--bcolor-0"
+                        className="logotel-timeline--button logotel-timeline--left bg-turquoise bg-turquoise--shadow"
                         onClick={_ => setActiveSection(0)}
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-1.svg`} alt="Logotel timeline logo 1" />
                     </div>
                     <div className="logotel-timeline--rectangle--text">
                         {
-                            activeSection === 0 ? TimelineTextContainer("logotel-timeline--color-0") : null
+                            activeSection === 0 ? TimelineTextContainer("turquoise") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--left">
-                    <div className="logotel-timeline--label logotel-timeline--label--right logotel-timeline--color-1">
+                    <div className="logotel-timeline--label logotel-timeline--label--right yellow">
                         <span className="logotel-timeline--label--title">2.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
-                        className="logotel-timeline--button logotel-timeline--right logotel-timeline--bcolor-1"
+                        className="logotel-timeline--button logotel-timeline--right bg-yellow bg-yellow--shadow"
                         onClick={_ => setActiveSection(1)}
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-2.svg`} alt="Logotel timeline logo 2" />
                     </div>
                     <div className="logotel-timeline--rectangle--text">
                         {
-                            activeSection === 1 ? TimelineTextContainer("logotel-timeline--color-1") : null
+                            activeSection === 1 ? TimelineTextContainer("yellow") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--right">
-                    <div className="logotel-timeline--label logotel-timeline--label--left logotel-timeline--color-2">
+                    <div className="logotel-timeline--label logotel-timeline--label--left pink">
                         <span className="logotel-timeline--label--title">3.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
-                        className="logotel-timeline--button logotel-timeline--left logotel-timeline--bcolor-2"
+                        className="logotel-timeline--button logotel-timeline--left bg-pink bg-pink--shadow"
                         onClick={_ => setActiveSection(2)}
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-3.svg`} alt="Logotel timeline logo 3" />
                     </div>
                     <div className="logotel-timeline--rectangle--text">
                         {
-                            activeSection === 2 ? TimelineTextContainer("logotel-timeline--color-2") : null
+                            activeSection === 2 ? TimelineTextContainer("pink") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--left">
-                    <div className="logotel-timeline--label logotel-timeline--label--right logotel-timeline--color-0">
+                    <div className="logotel-timeline--label logotel-timeline--label--right turquoise">
                         <span className="logotel-timeline--label--title">4.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
-                        className="logotel-timeline--button logotel-timeline--right logotel-timeline--bcolor-0"
+                        className="logotel-timeline--button logotel-timeline--right bg-turquoise bg-turquoise--shadow"
                         onClick={_ => setActiveSection(3)}
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-4.svg`} alt="Logotel timeline logo 4" />
                     </div>
                     <div className="logotel-timeline--rectangle--text">
                         {
-                            activeSection === 3 ? TimelineTextContainer("logotel-timeline--color-0") : null
+                            activeSection === 3 ? TimelineTextContainer("turquoise") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--right">
-                    <div className="logotel-timeline--label logotel-timeline--label--left logotel-timeline--color-1">
+                    <div className="logotel-timeline--label logotel-timeline--label--left yellow">
                         <span className="logotel-timeline--label--title">5.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
-                        className="logotel-timeline--button logotel-timeline--left logotel-timeline--bcolor-1"
+                        className="logotel-timeline--button logotel-timeline--left bg-yellow bg-yellow--shadow"
                         onClick={_ => setActiveSection(4)}
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-5.svg`} alt="Logotel timeline logo 5" />
                     </div>
                     <div className="logotel-timeline--rectangle--text">
                         {
-                            activeSection === 4 ? TimelineTextContainer("logotel-timeline--color-1") : null
+                            activeSection === 4 ? TimelineTextContainer("yellow") : null
                         }
                     </div>
                 </div>
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--left">
-                    <div className="logotel-timeline--label logotel-timeline--label--right logotel-timeline--color-2">
+                    <div className="logotel-timeline--label logotel-timeline--label--right pink">
                         <span className="logotel-timeline--label--title">6.</span>
                         <span>Lorem Ipsum</span>
                     </div>
                     <div
-                        className="logotel-timeline--button logotel-timeline--right logotel-timeline--bcolor-2"
+                        className="logotel-timeline--button logotel-timeline--right bg-pink bg-pink--shadow"
                         onClick={_ => setActiveSection(5)}
                     >
                         <img src={`${process.env.PUBLIC_URL}/icon-6.svg`} alt="Logotel timeline logo 6" />
                     </div>
                     <div className="logotel-timeline--rectangle--text">
                         {
-                            activeSection === 5 ? TimelineTextContainer("logotel-timeline--color-2") : null
+                            activeSection === 5 ? TimelineTextContainer("pink") : null
                         }
                     </div>
                 </div>

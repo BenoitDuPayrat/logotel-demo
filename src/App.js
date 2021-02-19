@@ -35,12 +35,12 @@ export default function App() {
             <News news={news} />
             <div className="slogan-1">
                 <img className="slogan-1--image" src={`${process.env.PUBLIC_URL}/onda-bianco-grigio.svg`} alt="Wave 1" />
-                <div className="slogan-1--text">Sed diam nonummy nibh euismod tincidunt?</div>
+                <div className="slogan-1--text pink">Sed diam nonummy nibh euismod tincidunt?</div>
             </div>
             <Timeline />
             <div className="slogan-2">
                 <img className="slogan-2--image" src={`${process.env.PUBLIC_URL}/onda-grigio-bianco.svg`} alt="Wave 2" />
-                <div className="slogan-2--text">Lorem ipsum dolor sit amet consectetuer?</div>
+                <div className="slogan-2--text pink">Lorem ipsum dolor sit amet consectetuer?</div>
             </div>
             <Tabs />
             <Footer />

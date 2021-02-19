@@ -57,42 +57,6 @@
     margin-bottom: 27px;
 }
 
-.logotel-timeline--color-0 {
-    color: #44e0dc;
-}
-
-.logotel-timeline--bcolor-0 {
-    background-color: #44e0dc;
-}
-
-.logotel-timeline--bcolor-0:hover {
-    box-shadow: 0px 0px 0px 24px #44e0dc4d; 
-}
-
-.logotel-timeline--color-1 {
-    color: #ffed65;
-}
-
-.logotel-timeline--bcolor-1 {
-    background-color: #ffed65;
-}
-
-.logotel-timeline--bcolor-1:hover {
-    box-shadow: 0px 0px 0px 24px #ffed654d; 
-}
-
-.logotel-timeline--color-2 {
-    color: #f07c79;
-}
-
-.logotel-timeline--bcolor-2 {
-    background-color: #f07c79;
-}
-
-.logotel-timeline--bcolor-2:hover {
-    box-shadow: 0px 0px 0px 24px #f07c794d; 
-}
-
 .logotel-timeline--label {
     position: absolute;
     top: 0;

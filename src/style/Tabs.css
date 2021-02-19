@@ -104,24 +104,12 @@
     color: #272727;
 }
 
-.logotel-tabs--card-pink .logotel-tabs--card--separator {
-    border-top: solid 2px #ed6562;
-}
-
 .logotel-tabs--card-pink .logotel-tabs--card--image::after {
     background-color: #ed6562;
 }
 
-.logotel-tabs--card-yellow .logotel-tabs--card--separator {
-    border-top: solid 2px #e2ca40;
-}
-
 .logotel-tabs--card-yellow .logotel-tabs--card--image::after {
     background-color: #e2ca40;
-}
-
-.logotel-tabs--card-turquoise .logotel-tabs--card--separator {
-    border-top: solid 2px #28afb0;
 }
 
 .logotel-tabs--card-turquoise .logotel-tabs--card--image::after {
