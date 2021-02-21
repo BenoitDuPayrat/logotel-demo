@@ -8,7 +8,7 @@ export default function Tabs() {
                 <div className="logotel-tabs--card--title weight-700 font-subtitle pink">TAB ROSA</div>
                 <hr className="logotel-tabs--card--separator pink-separator" />
                 <div className="logotel-tabs--card--image" >
-                    <img src={`${process.env.PUBLIC_URL}/sveglia.svg`} />
+                    <img src={`${process.env.PUBLIC_URL}/sveglia.svg`} alt="" />
                 </div>
                 <div className="logotel-tabs--card--text font-small">
                     Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci  magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
@@ -21,7 +21,7 @@ export default function Tabs() {
                 <div className="logotel-tabs--card--title weight-700 font-subtitle yellow">TAB GIALLA</div>
                 <hr className="logotel-tabs--card--separator yellow-separator" />
                 <div className="logotel-tabs--card--image" >
-                    <img src={`${process.env.PUBLIC_URL}/target.svg`} />
+                    <img src={`${process.env.PUBLIC_URL}/target.svg`} alt="" />
                 </div>
                 <div className="logotel-tabs--card--text font-small">
                     Ut wisi enim ad minim veniam, quis nostrud exerci magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
@@ -34,7 +34,7 @@ export default function Tabs() {
                 <div className="logotel-tabs--card--title weight-700 font-subtitle turquoise">TAB TURCHESE</div>
                 <hr className="logotel-tabs--card--separator turquoise-separator" />
                 <div className="logotel-tabs--card--image" >
-                    <img src={`${process.env.PUBLIC_URL}/razzo.svg`} />
+                    <img src={`${process.env.PUBLIC_URL}/razzo.svg`} alt="" />
                 </div>
                 <div className="logotel-tabs--card--text font-small">
                     Enim ad minim veniam, quis nostrud exerci tation ullamcorper. erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci  magna aliquam era.

@@ -32,7 +32,7 @@ export default function Timeline() {
                         className="logotel-timeline--button logotel-timeline--left bg-turquoise-light bg-turquoise-light--shadow"
                         onClick={_ => setActiveSection(0)}
                     >
-                        <img src={`${process.env.PUBLIC_URL}/icon-1.svg`} alt="Logotel timeline logo 1" />
+                        <img src={`${process.env.PUBLIC_URL}/icon-1.svg`} alt="" />
                     </div>
                     <div className="logotel-timeline--rectangle--text font-small">
                         {
@@ -49,7 +49,7 @@ export default function Timeline() {
                         className="logotel-timeline--button logotel-timeline--right bg-yellow-light bg-yellow-light--shadow"
                         onClick={_ => setActiveSection(1)}
                     >
-                        <img src={`${process.env.PUBLIC_URL}/icon-2.svg`} alt="Logotel timeline logo 2" />
+                        <img src={`${process.env.PUBLIC_URL}/icon-2.svg`} alt="" />
                     </div>
                     <div className="logotel-timeline--rectangle--text font-small">
                         {
@@ -66,7 +66,7 @@ export default function Timeline() {
                         className="logotel-timeline--button logotel-timeline--left bg-pink-light bg-pink-light--shadow"
                         onClick={_ => setActiveSection(2)}
                     >
-                        <img src={`${process.env.PUBLIC_URL}/icon-3.svg`} alt="Logotel timeline logo 3" />
+                        <img src={`${process.env.PUBLIC_URL}/icon-3.svg`} alt="" />
                     </div>
                     <div className="logotel-timeline--rectangle--text font-small">
                         {
@@ -83,7 +83,7 @@ export default function Timeline() {
                         className="logotel-timeline--button logotel-timeline--right bg-turquoise-light bg-turquoise-light--shadow"
                         onClick={_ => setActiveSection(3)}
                     >
-                        <img src={`${process.env.PUBLIC_URL}/icon-4.svg`} alt="Logotel timeline logo 4" />
+                        <img src={`${process.env.PUBLIC_URL}/icon-4.svg`} alt="" />
                     </div>
                     <div className="logotel-timeline--rectangle--text font-small">
                         {
@@ -100,7 +100,7 @@ export default function Timeline() {
                         className="logotel-timeline--button logotel-timeline--left bg-yellow-light bg-yellow-light--shadow"
                         onClick={_ => setActiveSection(4)}
                     >
-                        <img src={`${process.env.PUBLIC_URL}/icon-5.svg`} alt="Logotel timeline logo 5" />
+                        <img src={`${process.env.PUBLIC_URL}/icon-5.svg`} alt="" />
                     </div>
                     <div className="logotel-timeline--rectangle--text font-small">
                         {
@@ -117,7 +117,7 @@ export default function Timeline() {
                         className="logotel-timeline--button logotel-timeline--right bg-pink-light bg-pink-light--shadow"
                         onClick={_ => setActiveSection(5)}
                     >
-                        <img src={`${process.env.PUBLIC_URL}/icon-6.svg`} alt="Logotel timeline logo 6" />
+                        <img src={`${process.env.PUBLIC_URL}/icon-6.svg`} alt="" />
                     </div>
                     <div className="logotel-timeline--rectangle--text font-small">
                         {

@@ -22,7 +22,7 @@ export default function Header() {
     return (
         <div className={"logotel-header" + (scrolling ? " logotel-header--hidden" : "")}>
             <div className="logotel-header--card">
-                <img src={`${process.env.PUBLIC_URL}/LOGO BIANCO.svg`} alt="logo" />
+                <img src={`${process.env.PUBLIC_URL}/LOGO BIANCO.svg`} alt="" />
             </div>
             <div className="logotel-header--spacer" />
             <div className="logotel-header--card">SLIDER</div>

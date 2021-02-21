@@ -54,19 +54,19 @@ export default function Slider() {
             <img
                 className={"logotel-slider--image" + (slide !== 0 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-1.png`}
-                alt="slider-1" />
+                alt="" />
             <img
                 className={"logotel-slider--image" + (slide !== 1 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-2.jpg`}
-                alt="slider-2" />
+                alt="" />
             <img
                 className={"logotel-slider--image" + (slide !== 2 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-3.jpg`}
-                alt="slider-3" />
+                alt="" />
             <img
                 className={"logotel-slider--image" + (slide !== 3 ? " hidden" : "")}
                 src={`${process.env.PUBLIC_URL}/slider-4.jpg`}
-                alt="slider-4" />
+                alt="" />
         </div>
     );
 }

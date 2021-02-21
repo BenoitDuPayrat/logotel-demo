@@ -9,7 +9,7 @@ export default function News({ news }) {
                         <img
                             className="logotel-news--item--img"
                             src={n.src}
-                            alt={"news-" + i} />
+                            alt="" />
                         <div className="logotel-news--item--text">
                             <div className="logotel-news--item--text--date font-very-small weight-700">{n.date}</div>
                             <div className="logotel-news--item--text--title pink font-large weight-700">{n.title}</div>
