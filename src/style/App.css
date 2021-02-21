@@ -27,7 +27,7 @@
   width: 100%;
   justify-content: flex-end;
   align-items: center;
-  margin-top: -125px;
+  margin-top: -40px;
 }
 
 .slogan-1--image {
@@ -49,7 +49,7 @@
   width: 100%;
   justify-content: flex-end;
   align-items: center;
-  margin-top: -60px;
+  margin-top: -20px;
 }
 
 .slogan-2--image {
@@ -63,4 +63,10 @@
   transform: translateY(-50%);
   width: 55%;
   text-align: end;
+}
+
+@media only screen and (min-width: 769px) {
+  .slogan-1 {
+    margin-top: -125px;
+  }
 }

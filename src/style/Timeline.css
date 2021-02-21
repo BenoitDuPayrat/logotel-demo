@@ -1,7 +1,7 @@
 .logotel-timeline {
     display: flex;
     justify-content: center;
-    padding: 160px 0;
+    padding: 80px 0;
     margin-top: -1px;
     background: linear-gradient(180deg, #272727 0%, #464646 100%);
 }
@@ -9,36 +9,36 @@
 .logotel-timeline--area {
     display: flex;
     flex-direction: column;
-    width: 560px;
+    width: 300px;
 }
 
 .logotel-timeline--rectangle {
     position: relative;
     display: flex;
-    width: 280px;
-    padding: 75px;
-    margin-bottom: -9.66px;
-    border: 10px solid #ffffff;
+    width: 150px;
+    padding: 30px;
+    margin-bottom: -8px;
+    border: 8px solid #ffffff;
 }
 
 .logotel-timeline--rectangle--right {
     align-self: flex-end;
     justify-content: flex-start;
     border-left: none;
-    border-top-right-radius: 75px;
-    border-bottom-right-radius: 75px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .logotel-timeline--rectangle--left {
     align-self: flex-start;
     justify-content: flex-end;
     border-right: none;
-    border-top-left-radius: 75px;
-    border-bottom-left-radius: 75px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .logotel-timeline--rectangle--text {
-    width: 415px;
+    width: 270px;
     text-align: justify;
     text-justify: inter-word;
     white-space: pre-line;
@@ -55,20 +55,15 @@
 }
 
 .logotel-timeline--label {
+    display: none;
     position: absolute;
     top: 0;
     transform: translate(-50%, -50%);
-    display: flex;
     flex-direction: column;
 }
 
 .logotel-timeline--label--left {
-    left: -275px;
     text-align: end;
-}
-
-.logotel-timeline--label--right {
-    right: -500px;
 }
 
 .logotel-timeline--button {
@@ -77,18 +72,79 @@
     justify-content: center;
     align-items: center;
     transform: translate(-50%, -50%);
-    width: 92px;
-    height: 92px;
+    width: 72px;
+    height: 72px;
     border-radius: 100%;
     cursor: pointer;
 }
 
 .logotel-timeline--left {
     top: -10px;
-    left: -110px;
+    left: -90px;
 }
 
 .logotel-timeline--right {
     top: 0;
-    right: -180px;
+    right: -160px;
+}
+
+@media only screen and (min-width: 769px) {
+    .logotel-timeline--area {
+        width: 560px;
+    }
+    
+    .logotel-timeline--rectangle {
+        width: 280px;
+        padding: 75px;
+        margin-bottom: -9.66px;
+        border: 10px solid #ffffff;
+    }
+    
+    .logotel-timeline--rectangle--right {
+        border-left: none;
+        border-top-right-radius: 75px;
+        border-bottom-right-radius: 75px;
+    }
+    
+    .logotel-timeline--rectangle--left {
+        border-right: none;
+        border-top-left-radius: 75px;
+        border-bottom-left-radius: 75px;
+    }
+    
+    .logotel-timeline--rectangle--text {
+        width: 415px;
+        margin: 0 -120px
+    }
+    
+    .logotel-timeline--rectangle--content--title {
+        margin-bottom: 27px;
+    }
+    
+    .logotel-timeline--label {
+        display: flex;
+    }
+
+    .logotel-timeline--label--left {
+        left: -235px;
+    }
+    
+    .logotel-timeline--label--right {
+        right: -360px;
+    }
+    
+    .logotel-timeline--button {
+        width: 92px;
+        height: 92px;
+    }
+    
+    .logotel-timeline--left {
+        top: -10px;
+        left: -110px;
+    }
+    
+    .logotel-timeline--right {
+        top: 0;
+        right: -180px;
+    }
 }

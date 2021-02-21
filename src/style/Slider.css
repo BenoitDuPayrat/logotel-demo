@@ -1,7 +1,7 @@
 .logotel-slider {
     position: relative;
     width: 100%;
-    height: 810px;
+    height: 575px;
 }
 
 .logotel-slider--image {
@@ -12,14 +12,14 @@
 .logotel-slider--left-button {
     position: absolute;
     top: 50%;
-    left: 90px;
+    left: 8%;
     cursor: pointer;
 }
 
 .logotel-slider--right-button {
     position: absolute;
     top: 50%;
-    right: 90px;
+    right: 8%;
     cursor: pointer;
 }
 
@@ -27,7 +27,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 160px;
+    top: 100px;
     left: 0;
 }
 
@@ -35,8 +35,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 45px;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -49,9 +49,9 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 175px;
-    left: 175px;
-    max-width: 50%;
+    top: 100px;
+    left: 20%;
+    max-width: 60%;
 }
 
 .logotel-slider--text--title {
@@ -64,4 +64,24 @@
     width: fit-content;
     border-radius: 16px;
     cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+    .logotel-slider {
+        height: 810px;
+    }
+
+    .logotel-slider--text {
+        top: 175px;
+        max-width: 50%;
+    }
+
+    .logotel-slider--controls {
+        top: 160px;
+    }
+
+    .logotel-slider--controls--button {
+        height: 60px;
+        width: 60px;
+    }
 }

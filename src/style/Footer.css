@@ -3,17 +3,29 @@
     flex-direction: column;
     align-items: flex-start;
     box-sizing: border-box;
-    height: 300px;
-    padding: 60px;
+    padding: 20px 30px;
+    height: 200px;
     background-color: #272727;
 }
 
 .logotel-footer--logo {
-    height: 60px;
-    padding: 20px 0;
+    height: 45px;
+    padding: 10px 0;
 }
 
 .logotel-footer--links {
     margin-top: 12px;
     margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 600px) {
+    .logotel-footer {
+        padding: 60px;
+        height: 300px;
+    }
+
+    .logotel-footer--logo {
+        height: 60px;
+        padding: 20px 0;
+    }
 }

@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(33% - 20px);
+    width: 100%;
     box-sizing: border-box;
     padding: 40px;
     margin: 10px;
@@ -29,25 +29,26 @@
 }
 
 .logotel-tabs--card--title {
-    margin-bottom: 24px;
+    height: 2.66em;
+    margin-bottom: 0.5em;
     text-align: center;
 }
 
 .logotel-tabs--card--separator {
     width: 100%;
-    margin-bottom: 36px;
+    margin-bottom: 1em;
     border: none;
 }
 
 .logotel-tabs--card--image {
     position: relative;
     padding: 10px;
-    width: 219px;
-    height: 219px;
+    width: 60%;
     margin-bottom: 24px;
 }
 
 .logotel-tabs--card--image img {
+    width: 100%;
     position: relative;
     z-index: 2;
 }
@@ -73,6 +74,7 @@
     padding: 20px;
     margin-bottom: 24px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .logotel-tabs--card-pink:hover {
@@ -110,4 +112,10 @@
 
 .logotel-tabs--card-turquoise .logotel-tabs--card--image::after {
     background-color: #28afb0;
+}
+
+@media only screen and (min-width: 769px) {
+    .logotel-tabs--card {
+        width: calc(33% - 20px)
+    }
 }
