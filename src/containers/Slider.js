@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useImperativeHandle, forwardRef } from 'react';
 
-function Slider({ }, ref) {
+function SliderComp(props, ref) {
     const sliderRef = useRef();
 
     useImperativeHandle(ref, () => ({
@@ -81,4 +81,5 @@ function Slider({ }, ref) {
     );
 }
 
-export default Slider = forwardRef(Slider);
+const Slider = forwardRef(SliderComp);
+export default Slider;

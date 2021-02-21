@@ -1,6 +1,6 @@
 import React, { useRef, useImperativeHandle, forwardRef } from 'react';
 
-function News({ news }, ref) {
+function NewsComp({ news }, ref) {
     const newsRef = useRef();
 
     useImperativeHandle(ref, () => ({
@@ -32,4 +32,5 @@ function News({ news }, ref) {
     );
 };
 
-export default News = forwardRef(News);
+const News = forwardRef(NewsComp);
+export default News;

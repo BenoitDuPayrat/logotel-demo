@@ -17,7 +17,7 @@ function TimelineTextContainer(className) {
     );
 }
 
-function Timeline({ }, ref) {
+function TimelineComp(props, ref) {
     const [activeSection, setActiveSection] = useState(0);
     const timelineRef = useRef();
 
@@ -140,4 +140,5 @@ function Timeline({ }, ref) {
     );
 }
 
-export default Timeline = forwardRef(Timeline);
+const Timeline = forwardRef(TimelineComp);
+export default Timeline;

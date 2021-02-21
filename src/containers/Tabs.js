@@ -1,6 +1,6 @@
 import React, { useRef, useImperativeHandle, forwardRef } from 'react';
 
-function Tabs({ }, ref) {
+function TabsComp(props, ref) {
     const tabsRef = useRef();
 
     useImperativeHandle(ref, () => ({
@@ -57,4 +57,5 @@ function Tabs({ }, ref) {
     );
 }
 
-export default Tabs = forwardRef(Tabs);
+const Tabs = forwardRef(TabsComp);
+export default Tabs;

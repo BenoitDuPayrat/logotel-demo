@@ -28,12 +28,12 @@ function SmallHeader({ onSliderClick, onNewsClick, onTimelineClick, onTabsClick 
 export default function Header({ sliderRef, newsRef, timelineRef, tabsRef }) {
     const [scrolling, setScrolling] = useState(false);
     const [scrollTop, setScrollTop] = useState(0);
-    const [width, _] = useResize();
+    const [width,] = useResize();
 
-    const onSliderClick = useCallback(_ => sliderRef.current.scrollToSlider(), []);
-    const onNewsClick = useCallback(_ => newsRef.current.scrollToNews(), []);
-    const onTimelineClick = useCallback(_ => timelineRef.current.scrollToTimeline(), []);
-    const onTabsClick = useCallback(_ => tabsRef.current.scrollToTabs(), []);
+    const onSliderClick = useCallback(_ => sliderRef.current.scrollToSlider(), [sliderRef]);
+    const onNewsClick = useCallback(_ => newsRef.current.scrollToNews(), [newsRef]);
+    const onTimelineClick = useCallback(_ => timelineRef.current.scrollToTimeline(), [timelineRef]);
+    const onTabsClick = useCallback(_ => tabsRef.current.scrollToTabs(), [tabsRef]);
 
     useEffect(() => {
         function onScroll() {

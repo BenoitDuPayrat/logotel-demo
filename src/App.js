@@ -1,4 +1,4 @@
-import React, { useRef, useCallback } from 'react';
+import React, { useRef } from 'react';
 import Header from './Header';
 import Slider from './containers/Slider';
 import News from './containers/News';
