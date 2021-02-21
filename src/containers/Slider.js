@@ -1,6 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useImperativeHandle, forwardRef } from 'react';
 
-export default function Slider() {
+function Slider({ }, ref) {
+    const sliderRef = useRef();
+
+    useImperativeHandle(ref, () => ({
+        scrollToSlider: _ => {
+            sliderRef.current.scrollIntoView({ behavior: 'smooth' });
+        },
+        get slider() {
+            return sliderRef.current;
+        },
+    }));
     const [slide, setSlide] = useState(0);
 
     const nextSlide = () => {
@@ -17,7 +27,7 @@ export default function Slider() {
     });
 
     return (
-        <div className="logotel-slider">
+        <div className="logotel-slider" ref={sliderRef}>
             <div className="logotel-slider--left-button" onClick={_ => prevSlide()}>
                 <img src={`${process.env.PUBLIC_URL}/chevron sinistra.svg`} alt="Previous" />
             </div>
@@ -70,3 +80,5 @@ export default function Slider() {
         </div>
     );
 }
+
+export default Slider = forwardRef(Slider);

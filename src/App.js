@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useCallback } from 'react';
 import Header from './Header';
 import Slider from './containers/Slider';
 import News from './containers/News';
@@ -8,6 +8,11 @@ import Footer from './Footer';
 import './style/App.css';
 
 export default function App() {
+    const sliderRef = useRef();
+    const newsRef = useRef();
+    const timelineRef = useRef();
+    const tabsRef = useRef();
+
     const news = [
         {
             src: `${process.env.PUBLIC_URL}/news-1.png`,
@@ -30,19 +35,19 @@ export default function App() {
     ]
     return (
         <div className="app font-normal weight-500">
-            <Header />
-            <Slider />
-            <News news={news} />
+            <Header sliderRef={sliderRef} newsRef={newsRef} timelineRef={timelineRef} tabsRef={tabsRef} />
+            <Slider ref={sliderRef} />
+            <News news={news} ref={newsRef} />
             <div className="slogan-1">
                 <img className="slogan-1--image" src={`${process.env.PUBLIC_URL}/onda-bianco-grigio.svg`} alt="" />
                 <div className="slogan-1--text weight-700 font-title pink">Sed diam nonummy nibh euismod tincidunt?</div>
             </div>
-            <Timeline />
+            <Timeline ref={timelineRef} />
             <div className="slogan-2">
                 <img className="slogan-2--image" src={`${process.env.PUBLIC_URL}/onda-grigio-bianco.svg`} alt="" />
                 <div className="slogan-2--text weight-700 font-title pink">Lorem ipsum dolor sit amet consectetuer?</div>
             </div>
-            <Tabs />
+            <Tabs ref={tabsRef} />
             <Footer />
         </div>
     );

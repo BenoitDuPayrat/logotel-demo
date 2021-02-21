@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useRef, useImperativeHandle, forwardRef } from 'react';
 
-export default function Tabs() {
+function Tabs({ }, ref) {
+    const tabsRef = useRef();
+
+    useImperativeHandle(ref, () => ({
+        scrollToTabs: _ => {
+            tabsRef.current.scrollIntoView({ behavior: 'smooth' });
+        },
+        get tabs() {
+            return tabsRef.current;
+        },
+    }));
     return (
-        <div className="logotel-tabs">
+        <div className="logotel-tabs" ref={tabsRef}>
             <img className="logotel-tabs--background" src={`${process.env.PUBLIC_URL}/grafica sfondo.svg`} alt="" />
             <div className="logotel-tabs--card logotel-tabs--card-pink">
                 <div className="logotel-tabs--card--title weight-700 font-subtitle pink">TAB ROSA</div>
@@ -46,3 +56,5 @@ export default function Tabs() {
         </div>
     );
 }
+
+export default Tabs = forwardRef(Tabs);

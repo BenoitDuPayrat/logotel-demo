@@ -9,13 +9,13 @@
 .logotel-timeline--area {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 280px;
 }
 
 .logotel-timeline--rectangle {
     position: relative;
     display: flex;
-    width: 150px;
+    width: 140px;
     padding: 30px;
     margin-bottom: -8px;
     border: 8px solid #ffffff;
@@ -80,12 +80,12 @@
 
 .logotel-timeline--left {
     top: -10px;
-    left: -90px;
+    left: -70px;
 }
 
 .logotel-timeline--right {
     top: 0;
-    right: -160px;
+    right: -140px;
 }
 
 @media only screen and (min-width: 769px) {
@@ -121,18 +121,6 @@
         margin-bottom: 27px;
     }
     
-    .logotel-timeline--label {
-        display: flex;
-    }
-
-    .logotel-timeline--label--left {
-        left: -235px;
-    }
-    
-    .logotel-timeline--label--right {
-        right: -360px;
-    }
-    
     .logotel-timeline--button {
         width: 92px;
         height: 92px;
@@ -149,7 +137,11 @@
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 992px) {
+    .logotel-timeline--label {
+        display: flex;
+    }
+
     .logotel-timeline--label--left {
         left: -275px;
     }

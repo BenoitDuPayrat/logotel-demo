@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useImperativeHandle, forwardRef } from 'react';
 
 function TimelineTextContainer(className) {
     return (
@@ -17,11 +17,21 @@ function TimelineTextContainer(className) {
     );
 }
 
-export default function Timeline() {
+function Timeline({ }, ref) {
     const [activeSection, setActiveSection] = useState(0);
+    const timelineRef = useRef();
+
+    useImperativeHandle(ref, () => ({
+        scrollToTimeline: _ => {
+            timelineRef.current.scrollIntoView({ behavior: 'smooth' });
+        },
+        get timeline() {
+            return timelineRef.current;
+        },
+    }));
 
     return (
-        <div className="logotel-timeline">
+        <div className="logotel-timeline" ref={timelineRef}>
             <div className="logotel-timeline--area">
                 <div className="logotel-timeline--rectangle logotel-timeline--rectangle--right">
                     <div className="logotel-timeline--label weight-700 weight-700 font-subtitle logotel-timeline--label--left turquoise-light">
@@ -129,3 +139,5 @@ export default function Timeline() {
         </div >
     );
 }
+
+export default Timeline = forwardRef(Timeline);

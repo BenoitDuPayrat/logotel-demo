@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useRef, useImperativeHandle, forwardRef } from 'react';
 
-export default function News({ news }) {
+function News({ news }, ref) {
+    const newsRef = useRef();
+
+    useImperativeHandle(ref, () => ({
+        scrollToNews: _ => {
+            newsRef.current.scrollIntoView({ behavior: 'smooth' });
+        },
+        get news() {
+            return newsRef.current;
+        },
+    }));
     return (
-        <div className="logotel-news">
+        <div className="logotel-news" ref={newsRef}>
             {
                 news.map((n, i) =>
                     <div className="logotel-news--item" key={"news-" + i}>
@@ -21,3 +31,5 @@ export default function News({ news }) {
         </div>
     );
 };
+
+export default News = forwardRef(News);
