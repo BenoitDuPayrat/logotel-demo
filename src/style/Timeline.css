@@ -148,3 +148,13 @@
         right: -180px;
     }
 }
+
+@media only screen and (min-width: 769px) {
+    .logotel-timeline--label--left {
+        left: -275px;
+    }
+    
+    .logotel-timeline--label--right {
+        right: -500px;
+    }
+}
