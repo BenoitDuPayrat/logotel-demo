@@ -3,7 +3,7 @@ import React from 'react';
 export default function Tabs() {
     return (
         <div className="logotel-tabs">
-            <img className="logotel-tabs--background" src={`${process.env.PUBLIC_URL}/grafica sfondo.svg`} />
+            <img className="logotel-tabs--background" src={`${process.env.PUBLIC_URL}/grafica sfondo.svg`} alt="" />
             <div className="logotel-tabs--card logotel-tabs--card-pink">
                 <div className="logotel-tabs--card--title weight-700 font-subtitle pink">TAB ROSA</div>
                 <hr className="logotel-tabs--card--separator pink-separator" />

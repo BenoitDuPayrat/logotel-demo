@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Header() {
-    const [scrolling, setScrolling] = useState(true);
+    const [scrolling, setScrolling] = useState(false);
     const [scrollTop, setScrollTop] = useState(0);
 
     useEffect(() => {
